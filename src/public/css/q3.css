@@ -1,0 +1,18 @@
+.pageTitleWrapper {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  display:block;
+  text-align: center;
+}
+.main {
+  display: flex;
+  padding-top: 200px;
+}
+.imgWrapper{
+  justify-content: start;
+}
+.sectionTitleWrapper {
+  margin-left: 50px ;
+}
