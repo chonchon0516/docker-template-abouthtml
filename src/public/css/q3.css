@@ -16,3 +16,9 @@
 .sectionTitleWrapper {
   margin-left: 50px ;
 }
+.sectionTitle{
+  text-align: center;
+}
+.textWrapper {
+  max-width: 480px;
+}
