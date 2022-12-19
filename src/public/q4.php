@@ -6,11 +6,9 @@
   <title>Document</title>
 </head>
 <body class="body">
-	<div class="left-content">
-		<div>
-			<div class="pageTitleWrapper">
-				<h1 class="pageTitle">なぜTECH QUESTなのか</h1>
-			</div>
+	<div class="content">
+		<div class="contentDetail">
+			<h1 class="title">なぜTECH QUESTなのか</h1>			
 			<div class="textWrapper">
 				<p class="text">ドメイン駆動設計の考え方はPythonやJava、Goなど、あらゆる言語での開発に活きてきます。</p>
 				<p class="text">TECH QUESTであれば、より早いペースでコーディングスキル、設計スキルまでを身につけることが可能だと考えています。</p>
