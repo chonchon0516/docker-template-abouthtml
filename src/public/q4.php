@@ -6,6 +6,7 @@
   <title>Document</title>
 </head>
 <body class="body">
+
 	<div class="content">
 		<div class="contentDetail">
 			<h1 class="title">なぜTECH QUESTなのか</h1>	
@@ -30,4 +31,5 @@
 			</div>
 	 	</div>
 	</div>
+	
 </body>
