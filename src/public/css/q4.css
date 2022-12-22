@@ -19,5 +19,15 @@
   width: 50%;
 }
 .img {
+  width: 100%;
+}
+.textWrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: 50%;
+}
+.img {
   width: 100%;    
 }
