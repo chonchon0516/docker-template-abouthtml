@@ -1,0 +1,33 @@
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+}
+.contentDetail {
+  width: 50%;
+}
+.title {
+  text-align: center;
+}
+.textWrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: 50%;
+}
+.img {
+  width: 100%;
+}
+.textWrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: 50%;
+}
+.img {
+  width: 100%;    
+}
