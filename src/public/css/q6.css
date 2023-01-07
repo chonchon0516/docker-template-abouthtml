@@ -1,0 +1,70 @@
+.body {
+  width: 80%;
+  margin: 0 auto;
+}
+.main {
+  text-align: center;
+}
+.content {
+  display: flex;
+}
+.contentDetail {
+  width: 50%;
+}
+.title {
+  text-align: center;
+}
+.textWrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: 50%;
+}
+.img {
+  width: 100%;
+}
+.textWrapper {
+  width: 83%;
+  margin: 0 auto;
+}
+.imgWrapper {
+  width: 50%;
+}
+.img {
+  width: 100%;
+}
+.container {
+  padding: 50px 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 15rem;
+  background-image: url(https://tech-quest.club/wp-content/plugins/vk-block-patterns/patterns-data/images/sample-img10.jpg);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.box::after {
+  content: '';
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.text-tltle {
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+}
