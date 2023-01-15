@@ -38,23 +38,125 @@
   padding: 50px 0;
   
 }
+.boxMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 30rem;
+  background-image: url(https://tech-quest.club/wp-content/plugins/vk-block-patterns/patterns-data/images/sample-img21.jpg);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.boxMain::after {
+  content: '';
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main-title {
+  z-index: 1;
+  color: #fff;
+  font-size: 4rem;
+}
+.second-title {
+  display: block;
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+
 
 .box {
-  margin: 0 auto 30px;
-  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: auto;
   min-height: 15rem;
   background-image: url(https://tech-quest.club/wp-content/plugins/vk-block-patterns/patterns-data/images/sample-img10.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  border: 1px solid gray;
-  font-size: 30px;
-  color: #fff;
-  text-align: center;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.box::after {
+  content: '';
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
-.content-box {
-  box-sizing: content-box;
-  background-color: #000;
+.text-tltle {
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+ font-size: 18px;
+}
+.redColor {
+  color: #cf2e2e;
+  font-weight: bold;
+}
+.boldBlack {
+  font-weight: bold;
+}
+.bottomFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 300px;
+  background-color: #7bdcb5;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.footercontent {
+  margin-left: auto;
+  margin-right: auto;
+}
+.footerTitle {
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+.secondtitle {
+  display: block;
+  z-index: 1;
+  color: #fff;
+  font-size: 2rem;
+}
+.application {
+  /* display: flex; */
+  margin-bottom: 1.75em;
+}
+.application::before {
+  box-sizing: border-box;
+}
+.appliTitle {
+  width: 100%;
+  z-index: 1;
+  color: #222
 }
 
