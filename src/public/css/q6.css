@@ -164,8 +164,12 @@
 .appliTitle {
   width: 100%;
   z-index: 1;
-  color: #222;
+  color: #fff;
   text-align: center;
   font-weight: bold;
 }
-
+.appliTitle::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  content: "\f0e0";
+}
