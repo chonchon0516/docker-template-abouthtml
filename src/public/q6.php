@@ -91,7 +91,9 @@
 	<div class ="footercontent">
 		<h2 class = "footerTitle">ご質問・ご相談などありましたら<span class = "secondtitle">お気軽にお問い合わせください</span></h2>
 		<div class = "application">
+		 <div class = "appli">
 			<a href="#" class="appliTitle">無料体験 申し込み</a> 
+		</div>
 		</div>
 	</div>
 </div>

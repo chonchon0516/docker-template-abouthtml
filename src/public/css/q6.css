@@ -153,14 +153,19 @@
 .application::before {
   box-sizing: border-box;
 }
+.appli {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  background-color: #00D084;
+  padding: 16px 18px;
+}
 .appliTitle {
   width: 100%;
   z-index: 1;
-  color: #222
+  color: #222;
+  text-align: center;
+  font-weight: bold;
 }
 
-.text-tltle {
-  z-index: 1;
-  color: #fff;
-  font-size: 2rem;
-}
