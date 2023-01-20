@@ -1,0 +1,130 @@
+.body {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.boxMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 15rem;
+  background-image: url(https://tech-quest.club/wp-content/plugins/vk-block-patterns/patterns-data/images/sample-img10.jpg);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.boxMain::after {
+  content: '';
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.main-title {
+  z-index: 1;
+  color: #fff;
+  font-size: 32px;
+}
+
+ .content {
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+.contentWrapper {
+  color: #000000;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.sentence {
+  color: #000000;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.introduceWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.item {
+  flex: 0 0 33.33333%;;
+  max-width: 32.33333%;
+  text-align: center;
+  margin-right: 7px;
+  margin-bottom: 50px;
+}
+.imageItem{
+  position: relative;
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 60%;
+  object-position: 50px 180px;
+};
+.personalSentence {
+  margin-bottom: 0.5em;
+  text-align: center;
+  line-height: 1.8em;
+}
+.boxFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-height: 15rem;
+  background-image: url(https://tech-quest.club/wp-content/plugins/vk-block-patterns/patterns-data/images/sample-img10.jpg);
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+.boxFooter ::before {
+  content: '';
+  background-color: #000;
+  opacity: 0.7;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.footer-title 
+{
+  z-index: 1;
+  color: #fff;
+  font-size: 32px;
+} 
+.footerTitle {
+  content: "";
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  border-bottom: 1px solid #333;
+  position: unset;
+  width: unset;
+  border-left: unset;
+  border-right: unset;
+  border-top: none;
+  background: unset;
+}
+h3:after {
+  line-height: 0;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 30%;
+}
+.footerWrapper {
+ padding-left: 8rem;
+}
+
