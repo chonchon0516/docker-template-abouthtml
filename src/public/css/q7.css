@@ -116,6 +116,7 @@ p {
   content: '';
   -webkit-box-flex: 1;
   flex-grow: 1;
+  text-align: center;
   border-bottom: 1px solid #333;
   position: unset;
   width: unset;
